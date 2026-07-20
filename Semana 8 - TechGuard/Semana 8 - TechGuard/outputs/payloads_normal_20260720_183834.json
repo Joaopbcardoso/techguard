@@ -1,0 +1,56 @@
+[
+  {
+    "device_id": "node_alpha_01",
+    "timestamp": "2026-07-20T21:38:33.040802+00:00",
+    "latitude": -27.5954,
+    "longitude": -48.548,
+    "sensor_type": "nivel_agua",
+    "sensor_value": 0.56,
+    "unit": "m",
+    "risk_level": "attention",
+    "alert_message": "[ATENCAO] Condicoes em deterioracao. Score: 38.56/100. Margem HAND: 0.64m. Equipes de campo em prontidao, populacao em alerta.",
+    "source": "techguard_defesa_civil_v2",
+    "risk_score": 38.56,
+    "metadata": {
+      "node_name": "Sensor Planície Ribeirinha",
+      "hand_m": 1.2,
+      "ndbi": 0.3
+    }
+  },
+  {
+    "device_id": "node_beta_02",
+    "timestamp": "2026-07-20T21:38:33.542332+00:00",
+    "latitude": -27.596,
+    "longitude": -48.5495,
+    "sensor_type": "pluviometro",
+    "sensor_value": 2.1,
+    "unit": "mm/h",
+    "risk_level": "safe",
+    "alert_message": "[SEGURO] Condicoes dentro dos parametros normais. Score: 12.54/100. Margem HAND: 2.3m. Monitoramento continuo ativo.",
+    "source": "techguard_defesa_civil_v2",
+    "risk_score": 12.54,
+    "metadata": {
+      "node_name": "Sensor Pluviométrico Centro",
+      "hand_m": 3.1,
+      "ndbi": 0.82
+    }
+  },
+  {
+    "device_id": "node_gamma_03",
+    "timestamp": "2026-07-20T21:38:34.043003+00:00",
+    "latitude": -27.593,
+    "longitude": -48.551,
+    "sensor_type": "nivel_agua",
+    "sensor_value": 0.76,
+    "unit": "m",
+    "risk_level": "attention",
+    "alert_message": "[ATENCAO] Condicoes em deterioracao. Score: 26.05/100. Margem HAND: 1.24m. Equipes de campo em prontidao, populacao em alerta.",
+    "source": "techguard_defesa_civil_v2",
+    "risk_score": 26.05,
+    "metadata": {
+      "node_name": "Sensor Afluente Norte",
+      "hand_m": 2.0,
+      "ndbi": 0.55
+    }
+  }
+]
